@@ -1,10 +1,12 @@
 package edu.goit.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class Note {
-    private long id;
+    private Long id;
     private String title;
     private String content;
 }
